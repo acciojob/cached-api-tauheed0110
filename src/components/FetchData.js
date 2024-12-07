@@ -24,7 +24,7 @@ const FetchData = ({userId}) => {
     }, [apiUrl])
 
     if (loading) {
-        return <p>Loading..</p>
+        return <p>Loading...</p>
     }
     return (
         <div>
