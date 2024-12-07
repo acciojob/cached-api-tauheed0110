@@ -32,7 +32,7 @@ const FetchData = ({userId}) => {
                 {
                     value.length > 0 ? value.map((data, index) => {
                         return <li key={index}>
-                            <h2>{data.title}</h2>
+                            <h4>{data.title}</h4>
                             <p>{data.body}</p>
                         </li>
                     }) : <p>No Result Found!</p>
